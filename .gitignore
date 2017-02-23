@@ -56,3 +56,9 @@ docs/_build/
 
 # PyBuilder
 target/
+
+log/
+
+models/db_password\.txt
+
+application/models/db_password\.txt

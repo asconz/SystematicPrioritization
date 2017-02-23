@@ -1,0 +1,32 @@
+<RCC>
+	<qresource>
+		<file>PrioritizationAppIcon.png</file>
+		<file>bingen.png</file>
+		<file>Active.png</file>
+		<file>Overdue.png</file>
+		<file>Archived.png</file>
+		<file>Completed.png</file>
+		<file>ByDate.png</file>
+		<file>All.png</file>
+		<file>Career.png</file>
+		<file>Finance.png</file>
+		<file>Project.png</file>
+		<file>Misc.png</file>
+		<file>AddPriority.png</file>
+		<file>EditPriority.png</file>
+		<file>MarkComplete.png</file>
+		<file>ArchivePriority.png</file>
+		<file>ArchivePriority1.png</file>
+		<file>DeletePriority.png</file>
+		<file>Close.png</file>
+		<file>Delete.png</file>
+		<file>Refresh.png</file>
+		<file>Refresh1.png</file>
+		<file>ArrowLeft.png</file>
+		<file>ArrowRight.png</file>
+		<file>Star.png</file>
+		<file>Menu.png</file>
+		<file>Search.png</file>
+		<file>Schedule1.png</file>
+	</qresource>
+</RCC>
