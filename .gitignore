@@ -57,7 +57,7 @@ docs/_build/
 # PyBuilder
 target/
 
-log/
+log/*
 
 models/db_password\.txt
 
