@@ -11,8 +11,8 @@ from MainController import MainController
 from MainView import MainView
 
 logging.basicConfig(filename=strftime(r'../log/%Y%m%d.log'), level=logging.DEBUG,
-                    format='%(asctime)s.%(msecs)03d - %(name)s - %(message)s', datefmt='%H:%M:%S')
-log = logging.getLogger('App')
+                    format='%(levelname)s: %(asctime)s.%(msecs)03d - %(name)s - %(message)s', datefmt='%H:%M:%S')
+log = logging.getLogger('Main')
 global_vars = dict(config_file='PriorityManager.conf')
 
 

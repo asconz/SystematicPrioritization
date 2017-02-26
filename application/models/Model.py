@@ -113,7 +113,11 @@ def db_connect(db_config):
     """ parse config and password files to connect to db """
     db_args = ParseConfig(db_config).db_args()
 
-    with open(r'models/%s' % db_args['password'], 'r') as p_file:
-        db_args['pw'] = p_file.read()
+    try:
+        with open(r'models/%s' % db_args['password'], 'r') as p_file:
+            db_args['pw'] = p_file.read()
+    except FileNotFoundError:
+        log.warning("/models/<password-file> Not Found – Trying config")
+        db_args['pw'] = db_args['password']
 
     return DBInterface(db_args)

@@ -64,3 +64,5 @@ models/db_password\.txt
 application/models/db_password\.txt
 
 \.idea/workspace\.xml
+
+views/gen/icons/*.png

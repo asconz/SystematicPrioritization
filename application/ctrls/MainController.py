@@ -78,11 +78,11 @@ class MainController(object):
 
     def detail_id_check_new_filter(self):
         row_count = self.model.priority_model.rowCount()
-        log.debug("\n%s records in view\n" % self.model.priority_model.rowCount())
+        log.debug("%s records in view" % self.model.priority_model.rowCount())
         if not self.model.detail_filter == -1:
             for row in range(row_count):
                 if self.model.priority_model.record(row).value('PRIORITY_ID') == self.model.detail_filter:
-                    log.debug("Selected priority is row %s in new view.\n" % row)
+                    log.debug("Priority detail is row %s in new view." % row)
                     self.model.selected_row_index = row
                     return True
         else:
